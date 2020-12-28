@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <title>Cite Contruction Management</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="./sidemenu/sideMenuBarStyle.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script type="text/javascript">
+        function showDetail(URL){
+            document.location.href=URL;
+        }
+        
+        
+    </script>
+       
+    </head>
+    <body>
+<nav class="sidebar">
+      <div class="text">
+Side Menu</div>
+<ul>
+<li class="active"><a href="index.html">Home</a></li>
+<li class="active"><a href="portfolio.php">Portfolio</a></li>
+<li>
+          <a href="#" class="feat-btn">Project
+            <span class="fas fa-caret-down first"></span>
+          </a>
+          <ul class="feat-show">
+<li><a href="projectsOverview3.php">Overview</a></li>
+<li><a href="newProject.php">New Project</a></li>
+<li><a href="newClient.php">New Client</a></li>
+
+</ul>
+</li>
+<li>
+          <a href="#" class="serv-btn">Progress Manage
+            <span class="fas fa-caret-down second"></span>
+          </a>
+          <ul class="serv-show">
+<li><a href="manageSchedule2.php">Schedule</a></li>
+<li><a href="manageLabor2.php">Labor</a></li>
+<li><a href="manageResources2.php">Resources</a></li>
+</ul>
+</li>
+<li>
+          <a href="#" class="res-btn">Progress Report
+            <span class="fas fa-caret-down third"></span>
+          </a>
+          <ul class="res-show">
+<li><a href="dailySummary2.php">Daily</a></li>
+<li><a href="weeklySummary.php">Weekly</a></li>
+<li><a href="monthlySummary.php">Monthly</a></li>
+
+</ul>
+</li>
+<li><a href="#" class="sch-btn">History 
+  <span class="fas fa-caret-down four"></span>
+</a>
+<ul class="sch-show">
+  <li><a href="performanceEvaluation.php">Performance</a></li>
+  <li><a href="manageAccident2.php">Accidents</a></li>
+  
+  </ul>
+</li>
+<li><a href="#" class="his-btn">Client 
+  <span class="fas fa-caret-down five"></span>
+</a>
+<ul class="his-show">
+  <li><a href="clientSearch.php">Search Client</a></li>
+  <li><a href="newClient.php">Add New Client</a></li>
+  
+  </ul>
+</li>
+
+</ul>
+</nav>
+
+<script>
+  function showDetail(URL){
+          document.location.href=URL;
+      }
+      $('.btn').click(function(){
+    $(this).toggleClass("click");
+    $('.sidebar').toggleClass("show");
+  });
+    $('.feat-btn').click(function(){
+      $('nav ul .feat-show').toggleClass("show");
+      $('nav ul .first').toggleClass("rotate");
+    });
+    $('.serv-btn').click(function(){
+      $('nav ul .serv-show').toggleClass("show1");
+      $('nav ul .second').toggleClass("rotate");
+    });
+    $('.res-btn').click(function(){
+      $('nav ul .res-show').toggleClass("show2");
+      $('nav ul .third').toggleClass("rotate");
+    });
+    $('.sch-btn').click(function(){
+      $('nav ul .sch-show').toggleClass("show3");
+      $('nav ul .four').toggleClass("rotate");
+    });
+    $('.his-btn').click(function(){
+      $('nav ul .his-show').toggleClass("show4");
+      $('nav ul .five').toggleClass("rotate");
+    });
+    
+    $('nav ul li').click(function(){
+      $(this).addClass("active").siblings().removeClass("active");
+    });
+  
+  </script>
+</body>
+</html>

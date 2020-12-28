@@ -1,0 +1,288 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+
+body {
+   
+}
+
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+header,.bookLabel{
+    height: 80px;
+
+    width: 100%;
+    text-align: center;
+    background-color: rgb(44, 44, 49);
+}
+.logo{
+   
+}
+section{
+    
+   height: 600px;
+    width: 100%;
+    
+}
+.sectionHome{
+    height: 600px;
+    width: 85%;
+    float: right;
+    background-image: url(images/constructionBG.jpg);
+    
+    
+}
+footer{
+    height: 85px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+li a{
+    color: cornsilk;
+    text-decoration: none;
+}
+li a:hover{
+    color: rgb(240, 194, 11);
+    text-decoration: none;
+}
+nav{
+    float: left;
+    word-spacing: 20px;
+    padding-right: 10px;
+    padding-top: 28px;
+}
+.loginList{
+    float: right;
+    word-spacing: 20px;
+    padding-right: 10px;
+    padding-top: 28px;
+}
+
+
+.welcomeBox{
+    
+    background-color: #2e2e8b;
+    color: rgb(0, 0, 0);
+    height: 550px;
+    
+
+}
+
+.sectionMenus {
+    width: 15%; /* Set a width if you like */
+    float: left;
+    background-color: rgb(81, 77, 99); /* Grey background color */
+    height: 100%;
+   
+  }
+  
+  .sectionMenus a {
+    
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .sectionMenus a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .sectionMenus a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+
+
+/*--------------------------StudentLogin----------------------------*/
+
+.sectionStudent{
+    height: 550px;
+    background-image: url(images/studentLogin.jpg);
+}
+.loginBox{
+    height: 350px;
+    width: 350px;
+    background-color: #000002;
+    color: white;
+    margin: 0px auto;
+    opacity: .6;
+    padding: 20px;
+}
+input{
+    border: none;
+    
+    border-radius: 5px;
+    margin-left: 20px;
+    padding-left: 5px;
+    height: 25px;
+    width: 300px;
+    
+}
+.button{
+    margin-left: 20px;
+    width: 100px;
+    
+}
+
+/*--------------------------StudentRegiteration----------------------------*/
+
+.sectionStudent{
+    height: 600px;
+    background-image: url(images/studentRegisteration.png);
+}
+.registerBox,.addBookBox{
+    height: 450px;
+    width: 350px;
+    background-color: #000002;
+    color: white;
+    margin: 0px auto;
+    opacity: 1;
+    
+    padding: 20px;
+}
+
+
+
+/*----------------------FORM STYLE---------------------------*/
+
+input[type=text],input[type=date], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 50px;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 250px;
+
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    
+    padding: 40px;
+    height: 100%;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

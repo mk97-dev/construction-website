@@ -1,0 +1,83 @@
+<div class="bookLogo"> 
+                </div>
+                <div class="bookLabel">
+                        <h1 style="text-align: center;padding-top: 20px; color: white;font-size: 30px;">BOOKS</h1>
+
+                </div>
+                <div class="columnMax">
+                    <div class="column1">
+
+                <div class="book1">
+                    <img src="images/books/bookCity.PNG">
+                    
+                </div>
+                <div class="book1Info">
+                    <ul style="list-style-type:none;padding-top: 15px;font-size: x-large;">
+                        <li>Title:  <a style="color: blue;">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp     City of girls /Elizabeth Gilbert.</a></li>
+                        <li>Publisher:  &nbsp &nbsp New York : Riverhead Books, 2019</li>
+                        <li>Pages:     &nbsp &nbsp &nbsp&nbsp&nbsp &nbsp 470 pages ; 24 cm</li>
+                        <li>Subject: &nbsp &nbsp  &nbsp&nbsp&nbsp   Language and Literature</li>
+
+                    </ul>
+                    
+                </div>
+               
+            </div>
+            <div class="column1" style="margin-left: 10px;">
+
+                    <div class="book1">
+                        <img src="images/books/bookIelts.PNG">
+                        
+                    </div>
+                    <div class="book1Info">
+                        <ul style="list-style-type:none;padding-top: 15px;font-size: x-large;">
+                            <li>Title:  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Cambridge Step up to IELTS :self study student's book /by Vanessa Jakeman</li>
+                            <li>Publisher:  &nbsp &nbsp Cambridge : Cambridge University Press, 2018.</li>
+                            <li>Pages:     &nbsp &nbsp &nbsp&nbsp&nbsp &nbsp 121 pages ; 20 cm</li>
+                            <li>Subject: &nbsp &nbsp  &nbsp&nbsp&nbsp   Language and Literature</li>
+    
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <div class="column1">
+
+<div class="book1">
+    <img src="images/books/bookCity.PNG">
+    
+</div>
+<div class="book1Info">
+    <ul style="list-style-type:none;padding-top: 15px;font-size: x-large;">
+        <li>Title:  <a style="color: blue;">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp     City of girls /Elizabeth Gilbert.</a></li>
+        <li>Publisher:  &nbsp &nbsp New York : Riverhead Books, 2019</li>
+        <li>Pages:     &nbsp &nbsp &nbsp&nbsp&nbsp &nbsp 470 pages ; 24 cm</li>
+        <li>Subject: &nbsp &nbsp  &nbsp&nbsp&nbsp   Language and Literature</li>
+
+    </ul>
+    
+</div>
+
+</div>
+
+<div class="column1" style="margin-left: 10px;">
+
+<div class="book1">
+    <img src="images/books/bookIelts.PNG">
+    
+</div>
+<div class="book1Info">
+    <ul style="list-style-type:none;padding-top: 15px;font-size: x-large;">
+        <li>Title:  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Cambridge Step up to IELTS :self study student's book /by Vanessa Jakeman</li>
+        <li>Publisher:  &nbsp &nbsp Cambridge : Cambridge University Press, 2018.</li>
+        <li>Pages:     &nbsp &nbsp &nbsp&nbsp&nbsp &nbsp 121 pages ; 20 cm</li>
+        <li>Subject: &nbsp &nbsp  &nbsp&nbsp&nbsp   Language and Literature</li>
+
+    </ul>
+</div>
+
+</div>
+            </div>
+                
+                   
+                    
